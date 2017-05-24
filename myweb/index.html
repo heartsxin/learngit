@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>网站的首页</title>
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/web.js"></script>
+		<script type="text/javascript">
+	$(function () {
+		$("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			timeout:4000,
+			pager: true, 
+			pauseControls: true,
+			namespace: "callbacks"
+		});
+	});
+</script>
+		<style type="text/css">
+			div{
+				font: "微软雅黑";
+				color: black;
+				text-align: center;
+			}
+			table{
+				width: 100%;
+			}
+			a{
+				font-weight: bold;
+				font-size: 16px;
+				color: #2C3F52;
+			}
+			#container{
+				width: 100%;
+				height: 36px;
+			}
+			.header{
+				width: 19.8%;
+				height: 100%;
+				background: dodgerblue;
+				float: left;
+				margin: 0.1%;
+				padding-top: 16px;
+			}
+			.title{
+				font-size:16px;
+				text-align:center;
+				color: white;
+				font-weight:bold;
+			}
+			#image{
+				width: 90%;
+				height: 425px;
+				background: white;
+				margin-left: 5%;
+			}
+			#content{
+				width: 100%;
+				height: 1580px;
+				background: white;
+				clear: both;
+			}
+			#piece{
+				width: 100%;
+				height: 1105px;
+				background: white;
+			}
+			#container:hover{
+				height:58px ;
+			}
+			#footer{
+				width: 100%;
+				height: 58px;
+				background: #2C3F52;
+				clear: both;
+			}
+			.mybody{
+				width: 100%;
+				height: 220px;
+				background:white;
+			}
+			.mytwo{
+				width: 100%;
+				height: 380px;
+				background: white;
+			}
+		</style>
+	</head>
+	<body bgcolor= #1E85FF>
+		<div id="container">
+			<div class="header">
+				<span class="title">
+					<a style="color: #FFFFFF;" href="">网站首页</a>
+				</span>
+			</div>
+			<div class="header">
+				<span class="title">
+					<a style="color: #FFFFFF;" href="">团队介绍</a>
+				</span>
+			</div>
+			<div class="header">
+				<span class="title">
+					<a style="color: #FFFFFF;" href="">获取资源</a>
+				</span>
+			</div>
+			<div class="header">
+				<span class="title">
+					<a style="color: #FFFFFF;" href="">发现更多</a>
+				</span>
+			</div>
+			<div class="header">
+				<span class="title">
+					<a style="color: #FFFFFF;" href="login.html" target="_blank">加入我们</a>
+				</span>
+			</div>
+		</div>
+		<div id="content">
+			<div id="image">
+				<div class="callbacks_container">
+					<ul class="rslides" id="slider">
+						<li><a href=""><img src="img/3.png" alt=""></a></li>
+						<li><a href=""><img src="img/2.png" alt=""></a></li>
+						<li><a href=""><img src="img/1.png" alt=""></a></li>
+						<li><a href=""><img src="img/4.png" alt=""></a></li>
+					</ul>
+				</div>
+			</div>
+			<hr/>
+			<div id="piece">
+				<div style="margin-left: 2.5%;">
+					<ul class="grid cs-style-3">
+						<li>
+							<figure>
+								<img src="img/5.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">蜘蛛侠</h3>
+									<span>Spider-Man</span>
+									<a href="http://baike.baidu.com/link?url=nOlggFEYF8TtUvE-Mv2wjCPa0K84kGPXttXE7kdxb-w3e1AdfOw0eGlM6dAwtymWRk0y8IWc2yL1pMAwW5U9sLl8aXzi06WziCs7Mp_NWgUIP-rmyTj-lsOSfkwdv1HY"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">4029</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">29</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">129</span> 推荐
+							
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+						<li>
+							<figure>
+								<img src="img/6.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">小丑女哈莉奎因</h3>
+									<span>Harley Quinn</span>
+									<a href="http://baike.baidu.com/link?url=E006ZLQ5bbfM0fKFM6P86MhUWWIn0jtPGaDqHqg60xADYfDBBaWOgWwiWY_KLAL0r5pCB_RtKO0tMsuow-MRH0o4SqfU0Wt9bAW0uaonjLsMz4HlG3Il2lgpMi-q2U8L78n6Fsx504B6aigX3-z0Ka"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">4029</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">29</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">129</span> 推荐
+							
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+						<li>
+							<figure>
+								<img src="img/5.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">蜘蛛侠</h3>
+									<span>Spider-Man</span>
+									<a href="http://baike.baidu.com/link?url=nOlggFEYF8TtUvE-Mv2wjCPa0K84kGPXttXE7kdxb-w3e1AdfOw0eGlM6dAwtymWRk0y8IWc2yL1pMAwW5U9sLl8aXzi06WziCs7Mp_NWgUIP-rmyTj-lsOSfkwdv1HY"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">5029</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">129</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">3129</span> 推荐
+							
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+						<li>
+							<figure>
+								<img src="img/6.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">小丑女哈莉奎因</h3>
+									<span>Harley Quinn</span>
+									<a href="http://baike.baidu.com/link?url=E006ZLQ5bbfM0fKFM6P86MhUWWIn0jtPGaDqHqg60xADYfDBBaWOgWwiWY_KLAL0r5pCB_RtKO0tMsuow-MRH0o4SqfU0Wt9bAW0uaonjLsMz4HlG3Il2lgpMi-q2U8L78n6Fsx504B6aigX3-z0Ka"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">4829</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">229</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">929</span> 推荐
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+					</ul>
+					<ul class="grid cs-style-3">
+						<li>
+							<figure>
+								<img src="img/5.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">蜘蛛侠</h3>
+									<span>Spider-Man</span>
+									<a href="http://baike.baidu.com/link?url=nOlggFEYF8TtUvE-Mv2wjCPa0K84kGPXttXE7kdxb-w3e1AdfOw0eGlM6dAwtymWRk0y8IWc2yL1pMAwW5U9sLl8aXzi06WziCs7Mp_NWgUIP-rmyTj-lsOSfkwdv1HY"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">4029</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">29</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">129</span> 推荐
+							
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+						<li>
+							<figure>
+								<img src="img/6.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">小丑女哈莉奎因</h3>
+									<span>Harley Quinn</span>
+									<a href="http://baike.baidu.com/link?url=E006ZLQ5bbfM0fKFM6P86MhUWWIn0jtPGaDqHqg60xADYfDBBaWOgWwiWY_KLAL0r5pCB_RtKO0tMsuow-MRH0o4SqfU0Wt9bAW0uaonjLsMz4HlG3Il2lgpMi-q2U8L78n6Fsx504B6aigX3-z0Ka"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">4029</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">29</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">129</span> 推荐
+							
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+						<li>
+							<figure>
+								<img src="img/5.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">蜘蛛侠</h3>
+									<span>Spider-Man</span>
+									<a href="http://baike.baidu.com/link?url=nOlggFEYF8TtUvE-Mv2wjCPa0K84kGPXttXE7kdxb-w3e1AdfOw0eGlM6dAwtymWRk0y8IWc2yL1pMAwW5U9sLl8aXzi06WziCs7Mp_NWgUIP-rmyTj-lsOSfkwdv1HY"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">5029</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">129</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">3129</span> 推荐
+							
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+						<li>
+							<figure>
+								<img src="img/6.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">小丑女哈莉奎因</h3>
+									<span>Harley Quinn</span>
+									<a href="http://baike.baidu.com/link?url=E006ZLQ5bbfM0fKFM6P86MhUWWIn0jtPGaDqHqg60xADYfDBBaWOgWwiWY_KLAL0r5pCB_RtKO0tMsuow-MRH0o4SqfU0Wt9bAW0uaonjLsMz4HlG3Il2lgpMi-q2U8L78n6Fsx504B6aigX3-z0Ka"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">4829</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">229</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">929</span> 推荐
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+					</ul>
+					<ul class="grid cs-style-3">
+						<li>
+							<figure>
+								<img src="img/5.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">蜘蛛侠</h3>
+									<span>Spider-Man</span>
+									<a href="http://baike.baidu.com/link?url=nOlggFEYF8TtUvE-Mv2wjCPa0K84kGPXttXE7kdxb-w3e1AdfOw0eGlM6dAwtymWRk0y8IWc2yL1pMAwW5U9sLl8aXzi06WziCs7Mp_NWgUIP-rmyTj-lsOSfkwdv1HY"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">4029</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">29</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">129</span> 推荐
+							
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+						<li>
+							<figure>
+								<img src="img/6.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">小丑女哈莉奎因</h3>
+									<span>Harley Quinn</span>
+									<a href="http://baike.baidu.com/link?url=E006ZLQ5bbfM0fKFM6P86MhUWWIn0jtPGaDqHqg60xADYfDBBaWOgWwiWY_KLAL0r5pCB_RtKO0tMsuow-MRH0o4SqfU0Wt9bAW0uaonjLsMz4HlG3Il2lgpMi-q2U8L78n6Fsx504B6aigX3-z0Ka"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">4029</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">29</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">129</span> 推荐
+							
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+						<li>
+							<figure>
+								<img src="img/5.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">蜘蛛侠</h3>
+									<span>Spider-Man</span>
+									<a href="http://baike.baidu.com/link?url=nOlggFEYF8TtUvE-Mv2wjCPa0K84kGPXttXE7kdxb-w3e1AdfOw0eGlM6dAwtymWRk0y8IWc2yL1pMAwW5U9sLl8aXzi06WziCs7Mp_NWgUIP-rmyTj-lsOSfkwdv1HY"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">5029</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">129</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">3129</span> 推荐
+							
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+						<li>
+							<figure>
+								<img src="img/6.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">小丑女哈莉奎因</h3>
+									<span>Harley Quinn</span>
+									<a href="http://baike.baidu.com/link?url=E006ZLQ5bbfM0fKFM6P86MhUWWIn0jtPGaDqHqg60xADYfDBBaWOgWwiWY_KLAL0r5pCB_RtKO0tMsuow-MRH0o4SqfU0Wt9bAW0uaonjLsMz4HlG3Il2lgpMi-q2U8L78n6Fsx504B6aigX3-z0Ka"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">4829</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">229</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">929</span> 推荐
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+					</ul>
+					<ul class="grid cs-style-3">
+						<li>
+							<figure>
+								<img src="img/5.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">蜘蛛侠</h3>
+									<span>Spider-Man</span>
+									<a href="http://baike.baidu.com/link?url=nOlggFEYF8TtUvE-Mv2wjCPa0K84kGPXttXE7kdxb-w3e1AdfOw0eGlM6dAwtymWRk0y8IWc2yL1pMAwW5U9sLl8aXzi06WziCs7Mp_NWgUIP-rmyTj-lsOSfkwdv1HY"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">4029</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">29</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">129</span> 推荐
+							
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+						<li>
+							<figure>
+								<img src="img/6.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">小丑女哈莉奎因</h3>
+									<span>Harley Quinn</span>
+									<a href="http://baike.baidu.com/link?url=E006ZLQ5bbfM0fKFM6P86MhUWWIn0jtPGaDqHqg60xADYfDBBaWOgWwiWY_KLAL0r5pCB_RtKO0tMsuow-MRH0o4SqfU0Wt9bAW0uaonjLsMz4HlG3Il2lgpMi-q2U8L78n6Fsx504B6aigX3-z0Ka"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">4029</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">29</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">129</span> 推荐
+							
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+						<li>
+							<figure>
+								<img src="img/5.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">蜘蛛侠</h3>
+									<span>Spider-Man</span>
+									<a href="http://baike.baidu.com/link?url=nOlggFEYF8TtUvE-Mv2wjCPa0K84kGPXttXE7kdxb-w3e1AdfOw0eGlM6dAwtymWRk0y8IWc2yL1pMAwW5U9sLl8aXzi06WziCs7Mp_NWgUIP-rmyTj-lsOSfkwdv1HY"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">5029</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">129</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">3129</span> 推荐
+							
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+						<li>
+							<figure>
+								<img src="img/6.png">
+								<figcaption>
+									<h3 style="font-weight: bold;">小丑女哈莉奎因</h3>
+									<span>Harley Quinn</span>
+									<a href="http://baike.baidu.com/link?url=E006ZLQ5bbfM0fKFM6P86MhUWWIn0jtPGaDqHqg60xADYfDBBaWOgWwiWY_KLAL0r5pCB_RtKO0tMsuow-MRH0o4SqfU0Wt9bAW0uaonjLsMz4HlG3Il2lgpMi-q2U8L78n6Fsx504B6aigX3-z0Ka"
+										target="_blank"
+										>获取它</a>
+								</figcaption>
+							</figure>
+							<p align="center">
+								<span style="color: crimson; font-weight:bold">4829</span> 人气 
+								/ <span style="color: crimson; font-weight:bold">229</span> 评论 
+								/ <span style="color: crimson; font-weight:bold">929</span> 推荐
+							</p>
+							<br/>
+							<hr style="color:darkgray;">
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr/>
+		</div>
+		<div class=mytwo>
+			<iframe
+				width="98%";
+				height="98%"
+				src="http://www.baidu.com";
+				align="center"
+				>
+				
+			</iframe>
+		</div>
+		<div class="mybody">
+			<br/>
+			<hr/>
+			<table align="center" border="0">
+				<th>
+					<br/>
+					<h3>站外其他链接</h3>
+					<br/>
+				</th>
+				<tr>
+					<td width=200px><h4>新闻</h4></td>
+					<td width=200px><h4>娱乐</h4></td>
+					<td width=200px><h4>设计</h4></td>
+					<td width=200px><h4>科技</h4></td>
+					<td width=200px><h4>教育</h4></td>
+				</tr>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐新闻</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度贴吧</a></td>
+								<td><a href="http://www.hao123.com" target="_blank">hao123</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">一刀999级</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">一刀999级</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">天谕</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">网盘</a></td>
+								<td><a href="http://www.163.com" target="_blank">音乐</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">蓝月传奇</a></td>
+								<td><a href="http://www.163.com" target="_blank">阴阳师</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯游戏</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">微博</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">新闻</a></td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度外卖</a></td>
+								<td><a href="http://www.163.com" target="_blank">游戏</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪盘</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度否</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易头</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">英雄联盟</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜法狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度</a></td>
+								<td><a href="http://www.163.com" target="_blank">网他易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新吧浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.baidu.com" target="_blank">百度</a></td>
+								<td><a href="http://www.163.com" target="_blank">网易</a></td>
+								<td><a href="http://www.sina.com" target="_blank">新浪</a></td>
+								<td><a href="http://www.sohu.com" target="_blank">搜狐</a></td>
+								<td><a href="http://www.qq.com" target="_blank">腾讯</a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				
+			</table>
+		</div>
+		<div id="footer">
+			<p style="font-size: 12px; color: whitesmoke;">
+				<br/>
+				本网站设计及数据均受版权保护，任何公司及个人不得以任何方式复制，违者将依法追究责任，特此声明。优设网法律顾问：何裕鑫<br/>
+					友情链接 广告合作 联系我们 关于我们 @优秀网页设计 优设新群: 0000000<br/>
+						Copyright © 2017   优秀网页设计联盟 - 鄂ICP备00000000号-0
+			</p>
+		</div>
+	</body>
+</html>
